@@ -1,0 +1,149 @@
+
+  
+  .App {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+  }
+  
+  .TodoWrapper {
+    background-color: #252525;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .TodoForm {
+    width: 100%;
+  }
+  
+  .todo-input {
+    outline: none;
+    background: none;
+    border: 1px solid #8758ff;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 100%;
+    color: #fff;
+    margin-right: 0;
+  }
+  
+  .todo-input::placeholder {
+    color: #ffffff4d;
+  }
+  
+  .todo-btn {
+    width: 100%;
+    margin-top: 10px;
+    background: #8758ff;
+    color: #fff;
+    border: none;
+    padding: 0.55rem;
+    cursor: pointer;
+    
+  }
+  
+.Todo {
+  background: #1e293b;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+.Todo:hover {
+  background: #334155;
+}
+.Todo p {
+  margin: 0;
+  font-size: 14px;
+}
+.Todo a {
+  color: #94a3b8;
+  margin-left: 10px;
+}
+.Todo a:hover {
+  color: #6366f1;
+}
+  .scr{
+    overflow-y: auto;
+    max-height: 400px;
+  }
+  .scr::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  .fa-trash {
+    margin-left: 0.75rem;
+  }
+  
+  .completed {
+    color: #c5aeff;
+    text-decoration: line-through;
+  }
+
+  .todo-btn:hover {
+    background: #8758ff;
+    color: #fff;
+    border: none;
+    padding: 0.55rem;
+    cursor: pointer;
+    box-shadow: 0 0 10px #8758ff;
+  }
+
+a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.todo-green {
+  background-color: green;
+  /* Add other styles as needed */
+}
+
+.todo-red {
+  background-color: red;
+  /* Add other styles as needed */
+}
+
+.anca{
+  font-size: 25px;
+    margin-top: 7px;
+    /* margin-left: -68px; */
+    
+}
+.heads{
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+
+  .todo-input {
+    font-size: 14px;
+  }
+
+  .todo-btn {
+    font-size: 14px;
+  }
+
+  .Todo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+}
