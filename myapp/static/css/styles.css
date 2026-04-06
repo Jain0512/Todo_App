@@ -11,68 +11,55 @@
   }
   
   .TodoWrapper {
-    background-color: #252525;
-    margin-top: 20px;
-    padding: 10px;
-    width: 100%;
-    border-radius: 5px;
-  }
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
   
   .TodoForm {
     width: 100%;
   }
   
   .todo-input {
-    outline: none;
-    background: none;
-    border: 1px solid #8758ff;
-    padding: 0.5rem 1rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    width: 100%;
-    max-width: 100%;
-    color: #fff;
-    margin-right: 0;
-  }
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 10px;
+  color: #333;
+  background: #f9fafb;
+}
   
-  .todo-input::placeholder {
-    color: #ffffff4d;
-  }
   
-  .todo-btn {
-    width: 100%;
-    margin-top: 10px;
-    background: #8758ff;
-    color: #fff;
-    border: none;
-    padding: 0.55rem;
-    cursor: pointer;
-    
-  }
+  
+ .todo-btn {
+  background: #4f46e5;
+  border-radius: 10px;
+}
   
 .Todo {
-  background: #1e293b;
-  border-radius: 10px;
+  background: #f9fafc;
+  border-radius: 12px;
   padding: 12px;
   margin: 10px 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   transition: 0.3s;
 }
 .Todo:hover {
-  background: #334155;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.05);
 }
 .Todo p {
-  margin: 0;
-  font-size: 14px;
+  color: #333;
 }
+
 .Todo a {
-  color: #94a3b8;
-  margin-left: 10px;
+  color: #666;
 }
+
 .Todo a:hover {
-  color: #6366f1;
+  color: #4f46e5;
 }
   .scr{
     overflow-y: auto;
@@ -111,13 +98,13 @@ a{
 }
 
 .todo-green {
-  background-color: green;
-  /* Add other styles as needed */
+  background-color: #dcfce7;  /* light green */
+  color: #166534;
 }
 
 .todo-red {
-  background-color: red;
-  /* Add other styles as needed */
+  background-color: #fee2e2;  /* light red */
+  color: #991b1b;
 }
 
 .anca{
@@ -146,4 +133,28 @@ a{
     align-items: flex-start;
   }
 
+}
+
+.logout-btn {
+  color: #4f46e5;
+  font-size: 18px;
+}
+
+.logout-btn:hover {
+  color: #ef4444;
+}
+
+
+.inp::placeholder {
+  color: #9ca3af;
+  font-size: 13px;
+}
+
+.inp {
+  background: #f9fafb;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #9ca3af;
 }
